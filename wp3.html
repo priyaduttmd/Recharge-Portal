@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>RECHARGE</title>
+<link rel="stylesheet" type="text/css" href="file.css">
+<script type="text/javascript" >
+function validate()
+{var pattern= /[6-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9][0-9]$/;
+no=document.getElementById('no');
+if(!no.value.match(pattern))
+alert("Invalid Phone");
+else
+alert("Recharge Now");
+}
+</script>
+
+</head>
+
+<body>
+
+<div id="a">
+<header id="b">
+<h1> <em>Easy Recharge!</em></h1>
+</header>
+
+<nav id="navi">
+<form>
+<ul><li><a href="wp2.html" style="color:white; text-decoration:none;">Home</a></li>  
+ <li><a href="wp2.html" style="color:white; text-decoration:none;">About</a></li>
+ <li><a href="services.html" style="color:white; text-decoration:none;">Services</a></li>
+  
+   <li><a href="wp3.html" style="color:white; text-decoration:none;">Recharge</a></li>
+   <li><a href="contact.html" style="color:white; text-decoration:none;">Contact</a></li></ul>
+  </form> 
+   </nav>
+   <section id="c">
+    <article id="f">
+	 <form>
+	 <h3>RECHARGE NOW</h3>
+	 <br/><br/>
+	 <p>Postpaid: <input type="radio" name="payment" value="postpaid"/>
+	 Prepaid: <input type="radio" name="payment" value="prepaid"/><br/><br/>
+	 Mobile No:<input type="text" name="no" id="no" /></br><br/>
+	 Amount to be Recharged:<input type="text" name="amt" /> 
+	 <a href="plans.html"> Click here to Browse Plans </a>
+	 <br/><br/>
+	 <a href="payment.html"><input type="submit" name="submit" onClick="validate()" /> <br/>Proceed to pay the Bill</a>
+	 </p></form>
+    </article>
+	<h3>Today's Deals</h3>
+	<article>
+	 <img src="amazon.jpg"/><img src="off.jpg"/>
+	 <br/>
+	 <br/><img src="newuser.png"/><img src="click.jpg"/>
+	 
+	 
+	</article>
+	</section>
+   <aside id="d">
+<h3>*Get Unlimited Offers on Easy Recharge</h3> 
+<a href="offer.html"> Click here</a>
+<br/><br/>
+<a href="www.dealswithcoupons.in"><img src="images.png" /></a>
+<br/><br/>
+<h3>Get 20% cashback on Paytm on Postpaid reacharge</h3>
+<br/>
+<h3> Exclusive offers in Mobikwik and Freecharge payment</h3>
+<br/><br/>
+<a href="www.mobikwik.com"><img src="mobi.jpg" />click here</a>
+</aside>
+
+<footer id="e"> Copyright easyrecharge 2018</footer> 
+   </div>
+   </body>
+   </html>
